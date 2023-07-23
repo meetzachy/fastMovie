@@ -1,14 +1,9 @@
 import './App.css';
-import Profile from "./components/Profile";
-import PackagingList
- from './components/PackagingList';
+import User from './components/User';
 function App() {
   return (
     <div className="App">
-      <Profile />
-      <Profile />
-      <Profile />
-      <PackagingList />
+      <User />
     </div>
     
   );
