@@ -1,27 +1,14 @@
 import React from 'react'
-
-const user = {
-  name: 'Zachary Moseti',
-  theme: {
-    backgroundColor: 'black',
-    color: 'pink'
-  }
-}
+import Avatar from './Avatar';
 
 function Profile() {
   return (
-    <section style={user.theme}>
-        <h1>{user.nae}</h1>
-        <img 
-        src="https://i.imgur.com/MK3eW3As.jpg"
-        alt="Katherine Johnson"
-        />
-        <ul>
-        <li>Invent new traffic lights</li>
-        <li>Rehearse a movie scene</li>
-        <li>Improve spectrum technology</li>
-        </ul>
-    </section>
+    <Avatar size={200}
+      user ={{
+        name: 'Moseti',
+        imageUrl: 'https://i.imgur.com/7vQD0fPs.jpg'
+      }}
+    />
   )
 }
 
