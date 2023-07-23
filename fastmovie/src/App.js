@@ -1,12 +1,8 @@
-import Contact from "./components/Contact";
-
+import Articles from "./components/Articles";
 function App() {
   return (
     <div className="App">
-      <Contact
-      onPlayMovie={() => alert('Playing movie...')}
-      onUploadImage = {() => alert('Uploading image...')}
-      />
+     <Articles />
     </div>
     
   );
