@@ -1,8 +1,8 @@
-import Ticket from "./components/Ticket";
+import Home from "./components/Home";
 function App() {
   return (
     <div className="App">
-     <Ticket />
+      <Home />
     </div>
     
   );
