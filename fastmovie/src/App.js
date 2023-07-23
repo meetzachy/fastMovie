@@ -1,8 +1,8 @@
-import Articles from "./components/Articles";
+import Ticket from "./components/Ticket";
 function App() {
   return (
     <div className="App">
-     <Articles />
+     <Ticket />
     </div>
     
   );
