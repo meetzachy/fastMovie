@@ -1,9 +1,12 @@
-import './App.css';
-import User from './components/User';
+import Contact from "./components/Contact";
+
 function App() {
   return (
     <div className="App">
-      <User />
+      <Contact
+      onPlayMovie={() => alert('Playing movie...')}
+      onUploadImage = {() => alert('Uploading image...')}
+      />
     </div>
     
   );
